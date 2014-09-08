@@ -1,0 +1,56 @@
+/* Styling för reseplaneraren */
+
+table {
+	border-spacing: 0px;
+}
+
+#journey {
+	text-align: center;}
+
+
+#stations {
+	display: inline-block;
+/*	vertical-align: middle; */
+	text-align: left;}
+
+/*
+#stations_table td {
+	vertical-align: top;
+	}
+*/
+#changedir {
+	margin: 1em;}
+
+div[data-role="collapsible"] h4 {
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;}
+
+div[data-role="collapsible"] ol {
+	margin-top: 0;
+	margin-bottom: 0;}
+
+td img {
+	vertical-align: text-bottom;}
+
+div[data-role="collapsible"] ol li {
+	margin-bottom: 0.5em;}
+
+h3 small {
+	float: right;}
+
+.resvag div:not(:last-child) {
+
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-bottom-color: lightgrey;
+	margin-bottom: 0.3em}
+
+ol, ul {
+	margin:0em;
+	padding:0em;
+	list-style: none;}
+
+.error {
+	font-weight: bold;
+	color: red;
+	text-align: center;}
